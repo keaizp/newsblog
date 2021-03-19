@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_collect"
+        android:icon="@drawable/collect"
+        android:title="我的收藏" />
+    <item
+        android:id="@+id/nav_write"
+        android:icon="@drawable/blog"
+        android:title="写博客"/>
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/about_us"
+        android:title="关于我们" />
+    <item
+        android:id="@+id/nav_sign"
+        android:icon="@drawable/sign_in"
+        android:title="打卡" />
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/setting"
+        android:title="setting" />
+    <item
+        android:id="@+id/nav_quit"
+        android:icon="@drawable/quit"
+        android:title="退出登录" />
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/image"
+        android:layout_alignParentLeft="true"
+        android:padding="4dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/title"
+        android:text="这是一个标题"
+        android:textSize="28sp"
+        android:textColor="#5ABC4F"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
